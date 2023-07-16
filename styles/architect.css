@@ -239,12 +239,12 @@ main {
     }
 
     .features-img-container img {
-        width: 95%;
+        width: 100%;
         margin: auto;
     }
 
     .ten-year-badge {
-        width: 80%;
+        width: 85%;
         position: static;
     }
 
@@ -261,4 +261,18 @@ main {
     .features {
         flex-direction: column;
     }
+    .features-content{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .features-img-container img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .ten-year-badge {
+        width: 89.5%;
+        position: static;
+    }
 }
+
