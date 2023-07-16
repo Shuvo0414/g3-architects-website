@@ -201,6 +201,33 @@ main {
     padding-bottom: 42px;
 }
 
+/* facts section style */
+.facts-cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.facts-card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 46px 37px 60px 37px;
+}
+
+.card-stats {
+    color: #424242;
+    font-size: 2.813rem;
+    font-weight: 600px;
+    /* margin-bottom: 10px; */
+}
+
+.card-title {
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600px;
+}
+
 
 
 
@@ -217,7 +244,9 @@ main {
 
     nav,
     .teams-container,
-    .features {
+    .features,
+    .facts-cards-container 
+    {
         flex-direction: column;
     }
 
@@ -228,8 +257,10 @@ main {
     .teams-description {
         width: auto;
     }
+
     .features-content,
-    .teams-content {
+    .teams-content 
+    {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -247,6 +278,15 @@ main {
         width: 85%;
         position: static;
     }
+    .facts-title{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    .facts-description {
+        width: auto;
+        padding-left: 20px;
+    }
 
 }
 
@@ -261,10 +301,12 @@ main {
     .features {
         flex-direction: column;
     }
-    .features-content{
+
+    .features-content {
         padding-right: 20px;
         padding-left: 20px;
     }
+
     .features-img-container img {
         width: 100%;
         margin: auto;
@@ -274,5 +316,13 @@ main {
         width: 89.5%;
         position: static;
     }
+    .facts-title{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    .facts-description {
+        width: auto;
+        padding-left: 20px;
+    }
 }
-
